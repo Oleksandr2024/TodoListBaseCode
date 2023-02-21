@@ -1,0 +1,24 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "title": "Buy milk",
+      "completed": false
+    },
+    {
+      "id": 2,
+      "title": "Learn React",
+      "completed": false
+    },
+    {
+      "id": "B_2ugjOZlFOvEwTiUdWy7",
+      "title": "Buy spinach",
+      "completed": false
+    },
+    {
+      "id": "a0FUGUmwprvpOZ5yJKHJe",
+      "title": "New todo",
+      "completed": false
+    }
+  ]
+}
