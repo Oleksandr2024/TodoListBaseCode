@@ -4,7 +4,6 @@ import { getTodos, addTodos, updateTodos, deleteTodos } from "../app/todosApi";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrash, faUpload } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
-import { nanoid } from "nanoid";
 
 const TodoList = () => {
   const [newTodo, setNewTodo] = useState("");
@@ -39,7 +38,8 @@ const TodoList = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    addTodoMutation.mutate({ id: nanoid(), title: newTodo, completed: false });
+    const todoId = new Date().valueOf();
+    addTodoMutation.mutate({ id: todoId, title: newTodo, completed: false });
     setNewTodo("");
   };
 

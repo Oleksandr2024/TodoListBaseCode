@@ -1,23 +1,18 @@
 {
   "todos": [
     {
-      "id": 1,
+      "id": 1677172202260,
       "title": "Buy milk",
       "completed": false
     },
     {
-      "id": 2,
-      "title": "Learn React",
-      "completed": false
-    },
-    {
-      "id": "B_2ugjOZlFOvEwTiUdWy7",
-      "title": "Buy spinach",
-      "completed": false
-    },
-    {
-      "id": "a0FUGUmwprvpOZ5yJKHJe",
+      "id": 1677172204026,
       "title": "New todo",
+      "completed": false
+    },
+    {
+      "id": 1677172206472,
+      "title": "dfgh",
       "completed": false
     }
   ]
